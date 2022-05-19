@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+#hey{
+    text-decoration: underline;
+}
+
+
+.about-me{
+    text-align: justify;
+}
+
+/* this is a comment */
+/* if you see p.about-me{}, that means it must be a "about-me" class which is also a paragraph at the same time */
+
+.box{
+  width: 300px;
+  height: 200px;
+  border: 15px solid rgb(246, 246, 24);
+  padding: 50px;
+  margin: 20px;
+}
