@@ -63,9 +63,6 @@ th{
     background-color: rgb(255, 251, 202);
 }
 
-#topLine{
-    width: 50%;
-}
 
 .topIcon{
   display: block;
@@ -75,11 +72,16 @@ th{
   height: auto;
 }
 
-.tummyDance{
-    text-align: center;
-}
 
 a.tummyDance{
+    display: block;
     text-align: center;
     text-decoration: underline;
+    color: black;
+}
+
+a:hover.tummyDance{
+    text-decoration: none;
+    background-color: white;
+    color: black;
 }
