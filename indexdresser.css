@@ -27,6 +27,9 @@ img{
     height: auto;
 }
 
+a:link{
+    text-decoration: none;
+}
 a:hover {
     background-color: darkslategrey; color: white;
 }
@@ -46,4 +49,12 @@ table{
     height: 50px;
     vertical-align: middle;
     text-align: center;
+}
+
+th,td{
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(255, 251, 202);
 }
