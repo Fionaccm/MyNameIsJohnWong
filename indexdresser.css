@@ -1,9 +1,13 @@
 h1{
     text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
 }
 
 #hey{
-    text-decoration: underline;
+    text-align: center;
+    size: 5px;
+    font-family: 'Inconsolata', monospace;
 }
 
 
@@ -57,4 +61,25 @@ th,td{
 
 th{
     background-color: rgb(255, 251, 202);
+}
+
+#topLine{
+    width: 50%;
+}
+
+.topIcon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: auto;
+}
+
+.tummyDance{
+    text-align: center;
+}
+
+a.tummyDance{
+    text-align: center;
+    text-decoration: underline;
 }
