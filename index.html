@@ -13,9 +13,7 @@
 </head>
 
 <body>
-    <script>
-        alert("Hey, this website is under construction. JS will be added soon! xoxo");
-    </script>
+    
 <!--header element-->
 <header>
 <div>
@@ -25,7 +23,7 @@
 
 <!--main element-->
 <main>
-    <h1 style="margin-top:5px;">HEY THERE! THIS IS JOHN WONG!</h1>
+    <h1 style="margin-top:5px;">HEY <spam id="contactName">______</spam>! THIS IS JOHN WONG!</h1>
      <p id="hey">This is John John. I have a soft soft big tummy!</p>
      <a target="_blank" href="https://www.youtube.com/shorts/3wqIDYE6DmU" class="tummyDance">Discover this Tummy </a>
      <br>
@@ -96,6 +94,13 @@
 <footer>
 This site is created for practice purpose 2022&copy;
 </footer>
+
+<script>
+    var name = prompt("What is your name?")
+    var nameNode = document.getElementById("contactName")
+    nameNode.innerText = name
+
+</script>
 
 </body>
 </html>
